@@ -1,0 +1,13 @@
+src/
+  app/
+    components/ 
+      user-profile.component.ts 
+    models/ 
+      user.model.ts
+    services/ 
+      user.service.ts 
+    users/ 
+      users.controller.ts
+      user.service.ts
+      users.module.ts
+    ... other folders 
