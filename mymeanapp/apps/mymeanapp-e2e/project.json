@@ -6,5 +6,4 @@
   "tags": [],
   "implicitDependencies": ["mymeanapp"],
   "// targets": "to see all targets run: nx show project mymeanapp-e2e --web",
-  "targets": {}
-}
+  "targets": {}}

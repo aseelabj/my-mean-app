@@ -6,4 +6,4 @@ src/
       user.model.ts
     services/ 
       user.service.ts 
-    ... other folders 
+    ... other folders

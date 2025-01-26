@@ -8,7 +8,7 @@ export class UserController {
   constructor(private readonly userService: UserService) {}
 
   @Get('me')
-  async getUser(): Promise<UserDto> { 
+  async getUser(): Promise<UserDto> {
     return this.userService.getCurrentUser(); 
   }
 }

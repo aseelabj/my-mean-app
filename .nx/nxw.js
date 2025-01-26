@@ -10,6 +10,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const fs = require('fs');
 const path = require('path');
 const cp = require('child_process');
+const { isJSDocLinkLike } = require('typescript');
 const installationPath = path.join(__dirname, 'installation', 'package.json');
 function matchesCurrentNxInstall(currentInstallation, nxJsonInstallation) {
     if (!currentInstallation.devDependencies ||

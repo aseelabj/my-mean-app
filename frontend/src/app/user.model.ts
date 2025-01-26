@@ -6,5 +6,5 @@ export interface User {
     // Add other user properties here (e.g., email, firstName, lastName)
     email?: string;
     firstName?: string;
-    lastName?: string;
+  lastName?: string;
   }

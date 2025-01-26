@@ -5,7 +5,7 @@ import { User } from './user.model';
 
 @Injectable({ providedIn: 'root' })
 export class UserService {
-  private apiUrl = 'http://localhost:3000/api/users/me'; // Replace with your actual API endpoint
+  private apiUrl = 'http://localhost:3000/api/users/me'; 
 
   constructor(private http: HttpClient) {}
 

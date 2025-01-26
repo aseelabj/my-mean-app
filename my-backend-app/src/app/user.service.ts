@@ -13,7 +13,6 @@ export class UserService {
       firstName: 'Test', 
       lastName: 'User' 
     };
-
-    return user; 
+ return user; 
   }
 }
