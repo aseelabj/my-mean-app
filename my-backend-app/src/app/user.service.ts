@@ -12,7 +12,7 @@ export class UserService {
       email: 'test@example.com', 
       firstName: 'Test', 
       lastName: 'User' 
-    }; 
+    };
 
     return user; 
   }

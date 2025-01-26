@@ -31,4 +31,4 @@ module.exports = [
     // Override or add rules here
     rules: {},
   },
-];
+]
